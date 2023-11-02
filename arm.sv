@@ -33,7 +33,7 @@ module dmem(input  logic        clk, we,
   assign rd = RAM[a[31:2]]; // word aligned
   
   initial
-      $readmemh("C:\\Users\\edufr\\OneDrive\\Escritorio\\Facultad\\Arqui\\parcial2\\dmemfile.dat",RAM);
+      $readmemh("C:\\Users\\edufr\\OneDrive\\Escritorio\\Facultad\\Arqui\\ProyectoArqui\\dmemfile.dat",RAM);
 
   always_ff @(posedge clk)
     if (we) RAM[a[31:2]] <= wd;
@@ -45,7 +45,7 @@ module imem(input  logic [31:0] a,
   logic [31:0] RAM[63:0];
 
   initial
-      $readmemh("C:\\Users\\edufr\\OneDrive\\Escritorio\\Facultad\\Arqui\\parcial2\\imemfile.dat",RAM);
+      $readmemh("C:\\Users\\edufr\\OneDrive\\Escritorio\\Facultad\\Arqui\\ProyectoArqui\\imemfile.dat",RAM);
 
   assign rd = RAM[a[31:2]]; // word aligned
 endmodule

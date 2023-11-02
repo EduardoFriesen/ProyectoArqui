@@ -1,5 +1,5 @@
 Analysis & Synthesis report for parcial2
-Thu Nov 02 17:53:05 2023
+Thu Nov 02 18:09:46 2023
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
@@ -65,7 +65,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Nov 02 17:53:04 2023       ;
+; Analysis & Synthesis Status        ; Successful - Thu Nov 02 18:09:46 2023       ;
 ; Quartus Prime Version              ; 19.1.0 Build 670 09/22/2019 SJ Lite Edition ;
 ; Revision Name                      ; parcial2                                    ;
 ; Top-level Entity Name              ; parcial2                                    ;
@@ -187,15 +187,15 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                ;
-+----------------------------------+-----------------+------------------------------+-------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                            ; Library ;
-+----------------------------------+-----------------+------------------------------+-------------------------------------------------------------------------+---------+
-; arm.sv                           ; yes             ; User SystemVerilog HDL File  ; C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/parcial2/arm.sv       ;         ;
-; dmemfile.dat                     ; yes             ; Auto-Found Unspecified File  ; C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/parcial2/dmemfile.dat ;         ;
-; imemfile.dat                     ; yes             ; Auto-Found Unspecified File  ; C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/parcial2/imemfile.dat ;         ;
-+----------------------------------+-----------------+------------------------------+-------------------------------------------------------------------------+---------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                     ;
++----------------------------------+-----------------+------------------------------+------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                 ; Library ;
++----------------------------------+-----------------+------------------------------+------------------------------------------------------------------------------+---------+
+; arm.sv                           ; yes             ; User SystemVerilog HDL File  ; C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/ProyectoArqui/arm.sv       ;         ;
+; dmemfile.dat                     ; yes             ; Auto-Found Unspecified File  ; C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/ProyectoArqui/dmemfile.dat ;         ;
+; imemfile.dat                     ; yes             ; Auto-Found Unspecified File  ; C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/ProyectoArqui/imemfile.dat ;         ;
++----------------------------------+-----------------+------------------------------+------------------------------------------------------------------------------+---------+
 
 
 +---------------------------------------------------------+
@@ -525,7 +525,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:07     ;
+; Top            ; 00:00:10     ;
 +----------------+--------------+
 
 
@@ -535,61 +535,61 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
-    Info: Processing started: Thu Nov 02 17:52:46 2023
+    Info: Processing started: Thu Nov 02 18:09:14 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off parcial2 -c parcial2
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 18 design units, including 18 entities, in source file arm.sv
-    Info (12023): Found entity 1: parcial2 File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/parcial2/arm.sv Line: 6
-    Info (12023): Found entity 2: dmem File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/parcial2/arm.sv Line: 27
-    Info (12023): Found entity 3: imem File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/parcial2/arm.sv Line: 42
-    Info (12023): Found entity 4: arm File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/parcial2/arm.sv Line: 53
-    Info (12023): Found entity 5: controller File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/parcial2/arm.sv Line: 77
-    Info (12023): Found entity 6: decode File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/parcial2/arm.sv Line: 99
-    Info (12023): Found entity 7: condlogic File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/parcial2/arm.sv Line: 156
-    Info (12023): Found entity 8: condcheck File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/parcial2/arm.sv Line: 180
-    Info (12023): Found entity 9: datapath File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/parcial2/arm.sv Line: 210
-    Info (12023): Found entity 10: regfile File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/parcial2/arm.sv Line: 249
-    Info (12023): Found entity 11: extend File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/parcial2/arm.sv Line: 269
-    Info (12023): Found entity 12: alu File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/parcial2/arm.sv Line: 285
-    Info (12023): Found entity 13: adder File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/parcial2/arm.sv Line: 313
-    Info (12023): Found entity 14: flopenr File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/parcial2/arm.sv Line: 320
-    Info (12023): Found entity 15: flopr File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/parcial2/arm.sv Line: 330
-    Info (12023): Found entity 16: mux2 File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/parcial2/arm.sv Line: 340
-    Info (12023): Found entity 17: cmp2 File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/parcial2/arm.sv Line: 348
-    Info (12023): Found entity 18: port File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/parcial2/arm.sv Line: 355
+    Info (12023): Found entity 1: parcial2 File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/ProyectoArqui/arm.sv Line: 6
+    Info (12023): Found entity 2: dmem File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/ProyectoArqui/arm.sv Line: 27
+    Info (12023): Found entity 3: imem File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/ProyectoArqui/arm.sv Line: 42
+    Info (12023): Found entity 4: arm File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/ProyectoArqui/arm.sv Line: 53
+    Info (12023): Found entity 5: controller File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/ProyectoArqui/arm.sv Line: 77
+    Info (12023): Found entity 6: decode File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/ProyectoArqui/arm.sv Line: 99
+    Info (12023): Found entity 7: condlogic File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/ProyectoArqui/arm.sv Line: 156
+    Info (12023): Found entity 8: condcheck File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/ProyectoArqui/arm.sv Line: 180
+    Info (12023): Found entity 9: datapath File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/ProyectoArqui/arm.sv Line: 210
+    Info (12023): Found entity 10: regfile File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/ProyectoArqui/arm.sv Line: 249
+    Info (12023): Found entity 11: extend File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/ProyectoArqui/arm.sv Line: 269
+    Info (12023): Found entity 12: alu File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/ProyectoArqui/arm.sv Line: 285
+    Info (12023): Found entity 13: adder File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/ProyectoArqui/arm.sv Line: 313
+    Info (12023): Found entity 14: flopenr File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/ProyectoArqui/arm.sv Line: 320
+    Info (12023): Found entity 15: flopr File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/ProyectoArqui/arm.sv Line: 330
+    Info (12023): Found entity 16: mux2 File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/ProyectoArqui/arm.sv Line: 340
+    Info (12023): Found entity 17: cmp2 File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/ProyectoArqui/arm.sv Line: 348
+    Info (12023): Found entity 18: port File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/ProyectoArqui/arm.sv Line: 355
 Info (12127): Elaborating entity "parcial2" for the top level hierarchy
-Info (12128): Elaborating entity "arm" for hierarchy "arm:arm" File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/parcial2/arm.sv Line: 17
-Info (12128): Elaborating entity "controller" for hierarchy "arm:arm|controller:c" File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/parcial2/arm.sv Line: 68
-Info (12128): Elaborating entity "decode" for hierarchy "arm:arm|controller:c|decode:dec" File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/parcial2/arm.sv Line: 93
-Info (12128): Elaborating entity "condlogic" for hierarchy "arm:arm|controller:c|condlogic:cl" File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/parcial2/arm.sv Line: 96
-Info (12128): Elaborating entity "flopenr" for hierarchy "arm:arm|controller:c|condlogic:cl|flopenr:flagreg1" File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/parcial2/arm.sv Line: 168
-Info (12128): Elaborating entity "condcheck" for hierarchy "arm:arm|controller:c|condlogic:cl|condcheck:cc" File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/parcial2/arm.sv Line: 173
-Info (12128): Elaborating entity "datapath" for hierarchy "arm:arm|datapath:dp" File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/parcial2/arm.sv Line: 74
-Info (12128): Elaborating entity "mux2" for hierarchy "arm:arm|datapath:dp|mux2:pcmux" File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/parcial2/arm.sv Line: 229
-Info (12128): Elaborating entity "flopr" for hierarchy "arm:arm|datapath:dp|flopr:pcreg" File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/parcial2/arm.sv Line: 230
-Info (12128): Elaborating entity "adder" for hierarchy "arm:arm|datapath:dp|adder:pcadd1" File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/parcial2/arm.sv Line: 231
-Info (12128): Elaborating entity "mux2" for hierarchy "arm:arm|datapath:dp|mux2:ra1mux" File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/parcial2/arm.sv Line: 235
-Info (12128): Elaborating entity "regfile" for hierarchy "arm:arm|datapath:dp|regfile:rf" File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/parcial2/arm.sv Line: 239
-Info (12128): Elaborating entity "extend" for hierarchy "arm:arm|datapath:dp|extend:ext" File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/parcial2/arm.sv Line: 241
-Info (12128): Elaborating entity "alu" for hierarchy "arm:arm|datapath:dp|alu:alu" File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/parcial2/arm.sv Line: 246
-Info (12128): Elaborating entity "imem" for hierarchy "imem:imem" File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/parcial2/arm.sv Line: 18
-Warning (10850): Verilog HDL warning at arm.sv(48): number of words (12) in memory file does not match the number of elements in the address range [0:63] File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/parcial2/arm.sv Line: 48
-Warning (10030): Net "RAM.data_a" at arm.sv(45) has no driver or initial value, using a default initial value '0' File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/parcial2/arm.sv Line: 45
-Warning (10030): Net "RAM.waddr_a" at arm.sv(45) has no driver or initial value, using a default initial value '0' File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/parcial2/arm.sv Line: 45
-Warning (10030): Net "RAM.we_a" at arm.sv(45) has no driver or initial value, using a default initial value '0' File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/parcial2/arm.sv Line: 45
-Info (12128): Elaborating entity "dmem" for hierarchy "dmem:dmem" File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/parcial2/arm.sv Line: 19
-Warning (10850): Verilog HDL warning at arm.sv(36): number of words (29) in memory file does not match the number of elements in the address range [0:63] File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/parcial2/arm.sv Line: 36
-Info (12128): Elaborating entity "cmp2" for hierarchy "cmp2:compare" File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/parcial2/arm.sv Line: 21
-Info (12128): Elaborating entity "port" for hierarchy "port:inport" File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/parcial2/arm.sv Line: 23
+Info (12128): Elaborating entity "arm" for hierarchy "arm:arm" File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/ProyectoArqui/arm.sv Line: 17
+Info (12128): Elaborating entity "controller" for hierarchy "arm:arm|controller:c" File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/ProyectoArqui/arm.sv Line: 68
+Info (12128): Elaborating entity "decode" for hierarchy "arm:arm|controller:c|decode:dec" File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/ProyectoArqui/arm.sv Line: 93
+Info (12128): Elaborating entity "condlogic" for hierarchy "arm:arm|controller:c|condlogic:cl" File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/ProyectoArqui/arm.sv Line: 96
+Info (12128): Elaborating entity "flopenr" for hierarchy "arm:arm|controller:c|condlogic:cl|flopenr:flagreg1" File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/ProyectoArqui/arm.sv Line: 168
+Info (12128): Elaborating entity "condcheck" for hierarchy "arm:arm|controller:c|condlogic:cl|condcheck:cc" File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/ProyectoArqui/arm.sv Line: 173
+Info (12128): Elaborating entity "datapath" for hierarchy "arm:arm|datapath:dp" File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/ProyectoArqui/arm.sv Line: 74
+Info (12128): Elaborating entity "mux2" for hierarchy "arm:arm|datapath:dp|mux2:pcmux" File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/ProyectoArqui/arm.sv Line: 229
+Info (12128): Elaborating entity "flopr" for hierarchy "arm:arm|datapath:dp|flopr:pcreg" File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/ProyectoArqui/arm.sv Line: 230
+Info (12128): Elaborating entity "adder" for hierarchy "arm:arm|datapath:dp|adder:pcadd1" File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/ProyectoArqui/arm.sv Line: 231
+Info (12128): Elaborating entity "mux2" for hierarchy "arm:arm|datapath:dp|mux2:ra1mux" File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/ProyectoArqui/arm.sv Line: 235
+Info (12128): Elaborating entity "regfile" for hierarchy "arm:arm|datapath:dp|regfile:rf" File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/ProyectoArqui/arm.sv Line: 239
+Info (12128): Elaborating entity "extend" for hierarchy "arm:arm|datapath:dp|extend:ext" File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/ProyectoArqui/arm.sv Line: 241
+Info (12128): Elaborating entity "alu" for hierarchy "arm:arm|datapath:dp|alu:alu" File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/ProyectoArqui/arm.sv Line: 246
+Info (12128): Elaborating entity "imem" for hierarchy "imem:imem" File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/ProyectoArqui/arm.sv Line: 18
+Warning (10850): Verilog HDL warning at arm.sv(48): number of words (12) in memory file does not match the number of elements in the address range [0:63] File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/ProyectoArqui/arm.sv Line: 48
+Warning (10030): Net "RAM.data_a" at arm.sv(45) has no driver or initial value, using a default initial value '0' File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/ProyectoArqui/arm.sv Line: 45
+Warning (10030): Net "RAM.waddr_a" at arm.sv(45) has no driver or initial value, using a default initial value '0' File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/ProyectoArqui/arm.sv Line: 45
+Warning (10030): Net "RAM.we_a" at arm.sv(45) has no driver or initial value, using a default initial value '0' File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/ProyectoArqui/arm.sv Line: 45
+Info (12128): Elaborating entity "dmem" for hierarchy "dmem:dmem" File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/ProyectoArqui/arm.sv Line: 19
+Warning (10850): Verilog HDL warning at arm.sv(36): number of words (29) in memory file does not match the number of elements in the address range [0:63] File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/ProyectoArqui/arm.sv Line: 36
+Info (12128): Elaborating entity "cmp2" for hierarchy "cmp2:compare" File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/ProyectoArqui/arm.sv Line: 21
+Info (12128): Elaborating entity "port" for hierarchy "port:inport" File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/ProyectoArqui/arm.sv Line: 23
 Info (276014): Found 2 instances of uninferred RAM logic
-    Info (276007): RAM logic "arm:arm|datapath:dp|regfile:rf|rf" is uninferred due to asynchronous read logic File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/parcial2/arm.sv Line: 255
-    Info (276007): RAM logic "dmem:dmem|RAM" is uninferred due to asynchronous read logic File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/parcial2/arm.sv Line: 31
-Warning (127007): Memory Initialization File or Hexadecimal (Intel-Format) File "C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/parcial2/db/parcial2.ram0_imem_37c714.hdl.mif" contains "don't care" values -- overwriting them with 0s
-Warning (127007): Memory Initialization File or Hexadecimal (Intel-Format) File "C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/parcial2/db/parcial2.ram0_dmem_351e6b.hdl.mif" contains "don't care" values -- overwriting them with 0s
+    Info (276007): RAM logic "arm:arm|datapath:dp|regfile:rf|rf" is uninferred due to asynchronous read logic File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/ProyectoArqui/arm.sv Line: 255
+    Info (276007): RAM logic "dmem:dmem|RAM" is uninferred due to asynchronous read logic File: C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/ProyectoArqui/arm.sv Line: 31
+Warning (127007): Memory Initialization File or Hexadecimal (Intel-Format) File "C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/ProyectoArqui/db/parcial2.ram0_imem_37c714.hdl.mif" contains "don't care" values -- overwriting them with 0s
+Warning (127007): Memory Initialization File or Hexadecimal (Intel-Format) File "C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/ProyectoArqui/db/parcial2.ram0_dmem_351e6b.hdl.mif" contains "don't care" values -- overwriting them with 0s
 Info (286030): Timing-Driven Synthesis is running
 Info (17049): 3 registers lost all their fanouts during netlist optimizations.
-Info (144001): Generated suppressed messages file C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/parcial2/output_files/parcial2.map.smsg
+Info (144001): Generated suppressed messages file C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/ProyectoArqui/output_files/parcial2.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Info (21057): Implemented 5144 device resources after synthesis - the final resource count might be different
@@ -597,15 +597,15 @@ Info (21057): Implemented 5144 device resources after synthesis - the final reso
     Info (21059): Implemented 8 output pins
     Info (21061): Implemented 5126 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 8 warnings
-    Info: Peak virtual memory: 4792 megabytes
-    Info: Processing ended: Thu Nov 02 17:53:05 2023
-    Info: Elapsed time: 00:00:19
-    Info: Total CPU time (on all processors): 00:00:26
+    Info: Peak virtual memory: 4786 megabytes
+    Info: Processing ended: Thu Nov 02 18:09:46 2023
+    Info: Elapsed time: 00:00:32
+    Info: Total CPU time (on all processors): 00:00:21
 
 
 +------------------------------------------+
 ; Analysis & Synthesis Suppressed Messages ;
 +------------------------------------------+
-The suppressed messages can be found in C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/parcial2/output_files/parcial2.map.smsg.
+The suppressed messages can be found in C:/Users/edufr/OneDrive/Escritorio/Facultad/Arqui/ProyectoArqui/output_files/parcial2.map.smsg.
 
 
